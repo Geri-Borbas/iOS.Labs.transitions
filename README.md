@@ -9,7 +9,7 @@ presentee.transitioningDelegate = [EPPZTransition prespective];
 [self presentViewController:presentee animated:YES completion:nil];
 ```
 
-![EPPZTransition](https://github.com/eppz/labs-transitions/blob/master/Previews/EPPZTransition_0.0.2.gif)
+![EPPZTransition](https://github.com/eppz/labs-transitions/blob/master/Previews/EPPZTransition_002.gif)
 
 Gonna make some parameter hooks in the future, now it is only a basic design for implementing custom transitions in a "keep your controller clean" manner. 
 

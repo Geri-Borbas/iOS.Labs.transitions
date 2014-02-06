@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		AE1E8F3A18A31B7A0072D7D9 /* EPPZPerspective.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1E8F3918A31B7A0072D7D9 /* EPPZPerspective.m */; };
-		AE1E8F4318A32D850072D7D9 /* EPPZTransition_0.0.2.gif in Resources */ = {isa = PBXBuildFile; fileRef = AE1E8F4118A32D850072D7D9 /* EPPZTransition_0.0.2.gif */; };
-		AE1E8F4418A32D850072D7D9 /* EPPZTransition_0.0.2.mov in Resources */ = {isa = PBXBuildFile; fileRef = AE1E8F4218A32D850072D7D9 /* EPPZTransition_0.0.2.mov */; };
+		AE1E8F4318A32D850072D7D9 /* EPPZTransition_002.gif in Resources */ = {isa = PBXBuildFile; fileRef = AE1E8F4118A32D850072D7D9 /* EPPZTransition_002.gif */; };
+		AE1E8F4418A32D850072D7D9 /* EPPZTransition_002.mov in Resources */ = {isa = PBXBuildFile; fileRef = AE1E8F4218A32D850072D7D9 /* EPPZTransition_002.mov */; };
 		AE93059D18A2CBB000A22777 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE93059C18A2CBB000A22777 /* Foundation.framework */; };
 		AE93059F18A2CBB000A22777 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE93059E18A2CBB000A22777 /* CoreGraphics.framework */; };
 		AE9305A118A2CBB000A22777 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE9305A018A2CBB000A22777 /* UIKit.framework */; };
@@ -34,8 +34,8 @@
 /* Begin PBXFileReference section */
 		AE1E8F3818A31B7A0072D7D9 /* EPPZPerspective.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPPZPerspective.h; sourceTree = "<group>"; };
 		AE1E8F3918A31B7A0072D7D9 /* EPPZPerspective.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPPZPerspective.m; sourceTree = "<group>"; };
-		AE1E8F4118A32D850072D7D9 /* EPPZTransition_0.0.2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = EPPZTransition_0.0.2.gif; path = Previews/EPPZTransition_0.0.2.gif; sourceTree = "<group>"; };
-		AE1E8F4218A32D850072D7D9 /* EPPZTransition_0.0.2.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = EPPZTransition_0.0.2.mov; path = Previews/EPPZTransition_0.0.2.mov; sourceTree = "<group>"; };
+		AE1E8F4118A32D850072D7D9 /* EPPZTransition_002.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = EPPZTransition_002.gif; path = Previews/EPPZTransition_002.gif; sourceTree = "<group>"; };
+		AE1E8F4218A32D850072D7D9 /* EPPZTransition_002.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = EPPZTransition_002.mov; path = Previews/EPPZTransition_002.mov; sourceTree = "<group>"; };
 		AE93059918A2CBB000A22777 /* Transitions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Transitions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE93059C18A2CBB000A22777 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AE93059E18A2CBB000A22777 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -96,8 +96,8 @@
 		AE1E8F3C18A32D310072D7D9 /* Previews */ = {
 			isa = PBXGroup;
 			children = (
-				AE1E8F4118A32D850072D7D9 /* EPPZTransition_0.0.2.gif */,
-				AE1E8F4218A32D850072D7D9 /* EPPZTransition_0.0.2.mov */,
+				AE1E8F4118A32D850072D7D9 /* EPPZTransition_002.gif */,
+				AE1E8F4218A32D850072D7D9 /* EPPZTransition_002.mov */,
 			);
 			name = Previews;
 			sourceTree = "<group>";
@@ -286,10 +286,10 @@
 				AE9305FA18A309A700A22777 /* README.md in Resources */,
 				AE9305F118A2FB7900A22777 /* TRTealViewController.xib in Resources */,
 				AE9305B818A2CBB000A22777 /* Images.xcassets in Resources */,
-				AE1E8F4318A32D850072D7D9 /* EPPZTransition_0.0.2.gif in Resources */,
+				AE1E8F4318A32D850072D7D9 /* EPPZTransition_002.gif in Resources */,
 				AE9305B018A2CBB000A22777 /* Main_iPhone.storyboard in Resources */,
 				AE9305D818A2CBDF00A22777 /* TRYellowViewController.xib in Resources */,
-				AE1E8F4418A32D850072D7D9 /* EPPZTransition_0.0.2.mov in Resources */,
+				AE1E8F4418A32D850072D7D9 /* EPPZTransition_002.mov in Resources */,
 				AE9305A718A2CBB000A22777 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
