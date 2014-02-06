@@ -30,6 +30,10 @@
 		AE9305F118A2FB7900A22777 /* TRTealViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE9305F018A2FB7900A22777 /* TRTealViewController.xib */; };
 		AE9305F418A2FC5200A22777 /* EPPZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9305F318A2FC5200A22777 /* EPPZViewController.m */; };
 		AE9305F718A2FDA300A22777 /* EPPZPush.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9305F618A2FDA300A22777 /* EPPZPush.m */; };
+		AE9305FA18A309A700A22777 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AE9305F918A309A700A22777 /* README.md */; };
+		AE9305FE18A3109700A22777 /* ViewControllerTransition_142.tiff in Resources */ = {isa = PBXBuildFile; fileRef = AE9305FB18A3109700A22777 /* ViewControllerTransition_142.tiff */; };
+		AE9305FF18A3109700A22777 /* ViewControllerTransition.gif in Resources */ = {isa = PBXBuildFile; fileRef = AE9305FC18A3109700A22777 /* ViewControllerTransition.gif */; };
+		AE93060018A3109700A22777 /* ViewControllerTransition.mov in Resources */ = {isa = PBXBuildFile; fileRef = AE9305FD18A3109700A22777 /* ViewControllerTransition.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +82,10 @@
 		AE9305F318A2FC5200A22777 /* EPPZViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPPZViewController.m; sourceTree = "<group>"; };
 		AE9305F518A2FDA300A22777 /* EPPZPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPPZPush.h; sourceTree = "<group>"; };
 		AE9305F618A2FDA300A22777 /* EPPZPush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPPZPush.m; sourceTree = "<group>"; };
+		AE9305F918A309A700A22777 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		AE9305FB18A3109700A22777 /* ViewControllerTransition_142.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = ViewControllerTransition_142.tiff; sourceTree = "<group>"; };
+		AE9305FC18A3109700A22777 /* ViewControllerTransition.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ViewControllerTransition.gif; sourceTree = "<group>"; };
+		AE9305FD18A3109700A22777 /* ViewControllerTransition.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = ViewControllerTransition.mov; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +115,7 @@
 		AE93059018A2CBB000A22777 = {
 			isa = PBXGroup;
 			children = (
+				AE9305F918A309A700A22777 /* README.md */,
 				AE9305A218A2CBB000A22777 /* Transitions */,
 				AE9305C418A2CBB000A22777 /* TransitionsTests */,
 				AE93059B18A2CBB000A22777 /* Frameworks */,
@@ -145,6 +154,7 @@
 				AE9305E818A2EA7A00A22777 /* View controllers */,
 				AE9305E318A2D36500A22777 /* Transitions */,
 				AE9305B718A2CBB000A22777 /* Images.xcassets */,
+				AE93060118A3109B00A22777 /* stackoverflow.com */,
 				AE9305A318A2CBB000A22777 /* Supporting Files */,
 			);
 			path = Transitions;
@@ -249,6 +259,17 @@
 			name = Push;
 			sourceTree = "<group>";
 		};
+		AE93060118A3109B00A22777 /* stackoverflow.com */ = {
+			isa = PBXGroup;
+			children = (
+				AE9305FB18A3109700A22777 /* ViewControllerTransition_142.tiff */,
+				AE9305FC18A3109700A22777 /* ViewControllerTransition.gif */,
+				AE9305FD18A3109700A22777 /* ViewControllerTransition.mov */,
+			);
+			name = stackoverflow.com;
+			path = ..;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -326,8 +347,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE9305FE18A3109700A22777 /* ViewControllerTransition_142.tiff in Resources */,
+				AE9305FA18A309A700A22777 /* README.md in Resources */,
+				AE9305FF18A3109700A22777 /* ViewControllerTransition.gif in Resources */,
 				AE9305F118A2FB7900A22777 /* TRTealViewController.xib in Resources */,
 				AE9305B818A2CBB000A22777 /* Images.xcassets in Resources */,
+				AE93060018A3109700A22777 /* ViewControllerTransition.mov in Resources */,
 				AE9305B018A2CBB000A22777 /* Main_iPhone.storyboard in Resources */,
 				AE9305D818A2CBDF00A22777 /* TRYellowViewController.xib in Resources */,
 				AE9305A718A2CBB000A22777 /* InfoPlist.strings in Resources */,

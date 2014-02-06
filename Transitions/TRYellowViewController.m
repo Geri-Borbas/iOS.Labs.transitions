@@ -17,7 +17,9 @@
 
 @implementation TRYellowViewController
 
--(void)touchesEnded:(NSSet*) touches withEvent:(UIEvent*) event
-{ [self.presentingViewController dismissViewControllerAnimated:YES completion:nil]; }
+
+-(void)touchedUp
+{ [self dismissViewControllerAnimated:YES completion:nil]; }
+
 
 @end

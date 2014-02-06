@@ -29,6 +29,8 @@
 -(void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    // Retain transition delegates here.
     self.transitions = @[
                          [NSNull null],
                          [EPPZTransition new],
@@ -44,9 +46,9 @@
 
 #pragma mark - Navigation
 
--(void)touchesEnded:(NSSet*) touches withEvent:(UIEvent*) event
+-(void)touchedUp
 {
-    // Checks.
+    // Never mind this.
     if (self.presentedViewController != nil) return;
     
     // Create yellow.

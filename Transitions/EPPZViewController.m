@@ -17,10 +17,18 @@
 
 @implementation EPPZViewController
 
+
 +(instancetype)loadFromNib
 { return [[self alloc] initWithNibName:NSStringFromClass([self class]) bundle:nil]; }
 
 -(BOOL)prefersStatusBarHidden
 { return YES; }
+
+-(void)touchesEnded:(NSSet*) touches withEvent:(UIEvent*) event
+{ [self touchedUp]; }
+
+-(void)touchedUp
+{ }
+
 
 @end

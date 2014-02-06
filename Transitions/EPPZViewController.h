@@ -18,5 +18,6 @@
 @interface EPPZViewController : UIViewController
 
 +(instancetype)loadFromNib;
+-(void)touchedUp;
 
 @end

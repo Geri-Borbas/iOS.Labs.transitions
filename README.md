@@ -12,4 +12,4 @@ presentee.transitioningDelegate = [EPPZTransition partialCover];
 In development
 --------------
 
-Come back later, or clone if you came from my stackoverflow question.
+Come back later, or clone if you came from my **[Stackoverflow question](http://stackoverflow.com/questions/21591684/why-presenting-view-transform-gets-reset-on-dismissal)**.
