@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE1E8F3A18A31B7A0072D7D9 /* EPPZPerspective.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1E8F3918A31B7A0072D7D9 /* EPPZPerspective.m */; };
+		AE1E8F4318A32D850072D7D9 /* EPPZTransition_0.0.2.gif in Resources */ = {isa = PBXBuildFile; fileRef = AE1E8F4118A32D850072D7D9 /* EPPZTransition_0.0.2.gif */; };
+		AE1E8F4418A32D850072D7D9 /* EPPZTransition_0.0.2.mov in Resources */ = {isa = PBXBuildFile; fileRef = AE1E8F4218A32D850072D7D9 /* EPPZTransition_0.0.2.mov */; };
 		AE93059D18A2CBB000A22777 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE93059C18A2CBB000A22777 /* Foundation.framework */; };
 		AE93059F18A2CBB000A22777 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE93059E18A2CBB000A22777 /* CoreGraphics.framework */; };
 		AE9305A118A2CBB000A22777 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE9305A018A2CBB000A22777 /* UIKit.framework */; };
@@ -15,11 +18,6 @@
 		AE9305AD18A2CBB000A22777 /* TRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9305AC18A2CBB000A22777 /* TRAppDelegate.m */; };
 		AE9305B018A2CBB000A22777 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE9305AE18A2CBB000A22777 /* Main_iPhone.storyboard */; };
 		AE9305B818A2CBB000A22777 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE9305B718A2CBB000A22777 /* Images.xcassets */; };
-		AE9305BF18A2CBB000A22777 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE9305BE18A2CBB000A22777 /* XCTest.framework */; };
-		AE9305C018A2CBB000A22777 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE93059C18A2CBB000A22777 /* Foundation.framework */; };
-		AE9305C118A2CBB000A22777 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE9305A018A2CBB000A22777 /* UIKit.framework */; };
-		AE9305C918A2CBB000A22777 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE9305C718A2CBB000A22777 /* InfoPlist.strings */; };
-		AE9305CB18A2CBB000A22777 /* TransitionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9305CA18A2CBB000A22777 /* TransitionsTests.m */; };
 		AE9305D718A2CBDF00A22777 /* TRYellowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9305D518A2CBDF00A22777 /* TRYellowViewController.m */; };
 		AE9305D818A2CBDF00A22777 /* TRYellowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE9305D618A2CBDF00A22777 /* TRYellowViewController.xib */; };
 		AE9305DC18A2CC0600A22777 /* TRTealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9305DA18A2CC0600A22777 /* TRTealViewController.m */; };
@@ -31,22 +29,13 @@
 		AE9305F418A2FC5200A22777 /* EPPZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9305F318A2FC5200A22777 /* EPPZViewController.m */; };
 		AE9305F718A2FDA300A22777 /* EPPZPush.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9305F618A2FDA300A22777 /* EPPZPush.m */; };
 		AE9305FA18A309A700A22777 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AE9305F918A309A700A22777 /* README.md */; };
-		AE9305FE18A3109700A22777 /* ViewControllerTransition_142.tiff in Resources */ = {isa = PBXBuildFile; fileRef = AE9305FB18A3109700A22777 /* ViewControllerTransition_142.tiff */; };
-		AE9305FF18A3109700A22777 /* ViewControllerTransition.gif in Resources */ = {isa = PBXBuildFile; fileRef = AE9305FC18A3109700A22777 /* ViewControllerTransition.gif */; };
-		AE93060018A3109700A22777 /* ViewControllerTransition.mov in Resources */ = {isa = PBXBuildFile; fileRef = AE9305FD18A3109700A22777 /* ViewControllerTransition.mov */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		AE9305C218A2CBB000A22777 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AE93059118A2CBB000A22777 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AE93059818A2CBB000A22777;
-			remoteInfo = Transitions;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		AE1E8F3818A31B7A0072D7D9 /* EPPZPerspective.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPPZPerspective.h; sourceTree = "<group>"; };
+		AE1E8F3918A31B7A0072D7D9 /* EPPZPerspective.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPPZPerspective.m; sourceTree = "<group>"; };
+		AE1E8F4118A32D850072D7D9 /* EPPZTransition_0.0.2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = EPPZTransition_0.0.2.gif; path = Previews/EPPZTransition_0.0.2.gif; sourceTree = "<group>"; };
+		AE1E8F4218A32D850072D7D9 /* EPPZTransition_0.0.2.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = EPPZTransition_0.0.2.mov; path = Previews/EPPZTransition_0.0.2.mov; sourceTree = "<group>"; };
 		AE93059918A2CBB000A22777 /* Transitions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Transitions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE93059C18A2CBB000A22777 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AE93059E18A2CBB000A22777 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,11 +48,7 @@
 		AE9305AC18A2CBB000A22777 /* TRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRAppDelegate.m; sourceTree = "<group>"; };
 		AE9305AF18A2CBB000A22777 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		AE9305B718A2CBB000A22777 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		AE9305BD18A2CBB000A22777 /* TransitionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransitionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE9305BE18A2CBB000A22777 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		AE9305C618A2CBB000A22777 /* TransitionsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TransitionsTests-Info.plist"; sourceTree = "<group>"; };
-		AE9305C818A2CBB000A22777 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		AE9305CA18A2CBB000A22777 /* TransitionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransitionsTests.m; sourceTree = "<group>"; };
 		AE9305D418A2CBDF00A22777 /* TRYellowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRYellowViewController.h; sourceTree = "<group>"; };
 		AE9305D518A2CBDF00A22777 /* TRYellowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRYellowViewController.m; sourceTree = "<group>"; };
 		AE9305D618A2CBDF00A22777 /* TRYellowViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRYellowViewController.xib; sourceTree = "<group>"; };
@@ -83,9 +68,6 @@
 		AE9305F518A2FDA300A22777 /* EPPZPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPPZPush.h; sourceTree = "<group>"; };
 		AE9305F618A2FDA300A22777 /* EPPZPush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPPZPush.m; sourceTree = "<group>"; };
 		AE9305F918A309A700A22777 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
-		AE9305FB18A3109700A22777 /* ViewControllerTransition_142.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = ViewControllerTransition_142.tiff; sourceTree = "<group>"; };
-		AE9305FC18A3109700A22777 /* ViewControllerTransition.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ViewControllerTransition.gif; sourceTree = "<group>"; };
-		AE9305FD18A3109700A22777 /* ViewControllerTransition.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = ViewControllerTransition.mov; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,25 +81,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AE9305BA18A2CBB000A22777 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AE9305BF18A2CBB000A22777 /* XCTest.framework in Frameworks */,
-				AE9305C118A2CBB000A22777 /* UIKit.framework in Frameworks */,
-				AE9305C018A2CBB000A22777 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AE1E8F3B18A31B7D0072D7D9 /* 3D */ = {
+			isa = PBXGroup;
+			children = (
+				AE1E8F3818A31B7A0072D7D9 /* EPPZPerspective.h */,
+				AE1E8F3918A31B7A0072D7D9 /* EPPZPerspective.m */,
+			);
+			name = 3D;
+			sourceTree = "<group>";
+		};
+		AE1E8F3C18A32D310072D7D9 /* Previews */ = {
+			isa = PBXGroup;
+			children = (
+				AE1E8F4118A32D850072D7D9 /* EPPZTransition_0.0.2.gif */,
+				AE1E8F4218A32D850072D7D9 /* EPPZTransition_0.0.2.mov */,
+			);
+			name = Previews;
+			sourceTree = "<group>";
+		};
 		AE93059018A2CBB000A22777 = {
 			isa = PBXGroup;
 			children = (
 				AE9305F918A309A700A22777 /* README.md */,
+				AE1E8F3C18A32D310072D7D9 /* Previews */,
 				AE9305A218A2CBB000A22777 /* Transitions */,
-				AE9305C418A2CBB000A22777 /* TransitionsTests */,
 				AE93059B18A2CBB000A22777 /* Frameworks */,
 				AE93059A18A2CBB000A22777 /* Products */,
 			);
@@ -127,7 +117,6 @@
 			isa = PBXGroup;
 			children = (
 				AE93059918A2CBB000A22777 /* Transitions.app */,
-				AE9305BD18A2CBB000A22777 /* TransitionsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -154,7 +143,6 @@
 				AE9305E818A2EA7A00A22777 /* View controllers */,
 				AE9305E318A2D36500A22777 /* Transitions */,
 				AE9305B718A2CBB000A22777 /* Images.xcassets */,
-				AE93060118A3109B00A22777 /* stackoverflow.com */,
 				AE9305A318A2CBB000A22777 /* Supporting Files */,
 			);
 			path = Transitions;
@@ -167,24 +155,6 @@
 				AE9305A518A2CBB000A22777 /* InfoPlist.strings */,
 				AE9305A818A2CBB000A22777 /* main.m */,
 				AE9305AA18A2CBB000A22777 /* Transitions-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		AE9305C418A2CBB000A22777 /* TransitionsTests */ = {
-			isa = PBXGroup;
-			children = (
-				AE9305CA18A2CBB000A22777 /* TransitionsTests.m */,
-				AE9305C518A2CBB000A22777 /* Supporting Files */,
-			);
-			path = TransitionsTests;
-			sourceTree = "<group>";
-		};
-		AE9305C518A2CBB000A22777 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				AE9305C618A2CBB000A22777 /* TransitionsTests-Info.plist */,
-				AE9305C718A2CBB000A22777 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -217,6 +187,7 @@
 				AE9305E718A2DD3800A22777 /* Cross fade */,
 				AE9305E918A2EAAE00A22777 /* Partial slide */,
 				AE9305F818A2FDA600A22777 /* Push */,
+				AE1E8F3B18A31B7D0072D7D9 /* 3D */,
 			);
 			name = Transitions;
 			sourceTree = "<group>";
@@ -259,17 +230,6 @@
 			name = Push;
 			sourceTree = "<group>";
 		};
-		AE93060118A3109B00A22777 /* stackoverflow.com */ = {
-			isa = PBXGroup;
-			children = (
-				AE9305FB18A3109700A22777 /* ViewControllerTransition_142.tiff */,
-				AE9305FC18A3109700A22777 /* ViewControllerTransition.gif */,
-				AE9305FD18A3109700A22777 /* ViewControllerTransition.mov */,
-			);
-			name = stackoverflow.com;
-			path = ..;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -290,24 +250,6 @@
 			productReference = AE93059918A2CBB000A22777 /* Transitions.app */;
 			productType = "com.apple.product-type.application";
 		};
-		AE9305BC18A2CBB000A22777 /* TransitionsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AE9305D118A2CBB000A22777 /* Build configuration list for PBXNativeTarget "TransitionsTests" */;
-			buildPhases = (
-				AE9305B918A2CBB000A22777 /* Sources */,
-				AE9305BA18A2CBB000A22777 /* Frameworks */,
-				AE9305BB18A2CBB000A22777 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AE9305C318A2CBB000A22777 /* PBXTargetDependency */,
-			);
-			name = TransitionsTests;
-			productName = TransitionsTests;
-			productReference = AE9305BD18A2CBB000A22777 /* TransitionsTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -317,11 +259,6 @@
 				CLASSPREFIX = TR;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "eppz! development, LLC";
-				TargetAttributes = {
-					AE9305BC18A2CBB000A22777 = {
-						TestTargetID = AE93059818A2CBB000A22777;
-					};
-				};
 			};
 			buildConfigurationList = AE93059418A2CBB000A22777 /* Build configuration list for PBXProject "Transitions" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -337,7 +274,6 @@
 			projectRoot = "";
 			targets = (
 				AE93059818A2CBB000A22777 /* Transitions */,
-				AE9305BC18A2CBB000A22777 /* TransitionsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -347,23 +283,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE9305FE18A3109700A22777 /* ViewControllerTransition_142.tiff in Resources */,
 				AE9305FA18A309A700A22777 /* README.md in Resources */,
-				AE9305FF18A3109700A22777 /* ViewControllerTransition.gif in Resources */,
 				AE9305F118A2FB7900A22777 /* TRTealViewController.xib in Resources */,
 				AE9305B818A2CBB000A22777 /* Images.xcassets in Resources */,
-				AE93060018A3109700A22777 /* ViewControllerTransition.mov in Resources */,
+				AE1E8F4318A32D850072D7D9 /* EPPZTransition_0.0.2.gif in Resources */,
 				AE9305B018A2CBB000A22777 /* Main_iPhone.storyboard in Resources */,
 				AE9305D818A2CBDF00A22777 /* TRYellowViewController.xib in Resources */,
+				AE1E8F4418A32D850072D7D9 /* EPPZTransition_0.0.2.mov in Resources */,
 				AE9305A718A2CBB000A22777 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AE9305BB18A2CBB000A22777 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AE9305C918A2CBB000A22777 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +303,7 @@
 			files = (
 				AE9305E618A2D4D100A22777 /* EPPZCrossFade.m in Sources */,
 				AE9305D718A2CBDF00A22777 /* TRYellowViewController.m in Sources */,
+				AE1E8F3A18A31B7A0072D7D9 /* EPPZPerspective.m in Sources */,
 				AE9305F718A2FDA300A22777 /* EPPZPush.m in Sources */,
 				AE9305F418A2FC5200A22777 /* EPPZViewController.m in Sources */,
 				AE9305EF18A2FB5500A22777 /* TRViewController.m in Sources */,
@@ -387,23 +315,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AE9305B918A2CBB000A22777 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AE9305CB18A2CBB000A22777 /* TransitionsTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		AE9305C318A2CBB000A22777 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AE93059818A2CBB000A22777 /* Transitions */;
-			targetProxy = AE9305C218A2CBB000A22777 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		AE9305A518A2CBB000A22777 /* InfoPlist.strings */ = {
@@ -420,14 +332,6 @@
 				AE9305AF18A2CBB000A22777 /* Base */,
 			);
 			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		AE9305C718A2CBB000A22777 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AE9305C818A2CBB000A22777 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -535,48 +439,6 @@
 			};
 			name = Release;
 		};
-		AE9305D218A2CBB000A22777 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Transitions.app/Transitions";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Transitions/Transitions-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "TransitionsTests/TransitionsTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		AE9305D318A2CBB000A22777 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Transitions.app/Transitions";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Transitions/Transitions-Prefix.pch";
-				INFOPLIST_FILE = "TransitionsTests/TransitionsTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -596,14 +458,7 @@
 				AE9305D018A2CBB000A22777 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		AE9305D118A2CBB000A22777 /* Build configuration list for PBXNativeTarget "TransitionsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AE9305D218A2CBB000A22777 /* Debug */,
-				AE9305D318A2CBB000A22777 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -36,7 +36,8 @@
                          [EPPZTransition new],
                          [EPPZTransition crossFade],
                          [EPPZTransition partialSlide],
-                         [EPPZTransition push]
+                         [EPPZTransition push],
+                         [EPPZTransition perspective],
                          ];
 }
 

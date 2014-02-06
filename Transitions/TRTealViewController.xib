@@ -23,6 +23,7 @@
                         <segment title="Fade"/>
                         <segment title="Cover"/>
                         <segment title="Push"/>
+                        <segment title="3D"/>
                     </segments>
                     <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     <connections>

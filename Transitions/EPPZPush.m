@@ -39,17 +39,12 @@
     
     // Animation.
     [UIView animateWithDuration:self.duration
-                          delay:0.0
-                        options:UIViewAnimationOptionBeginFromCurrentState
                      animations:^
-     {
-         presenterView.transform = CGAffineTransformMakeTranslation(0.0, self.padding); // In
-         modalView.transform = CGAffineTransformMakeTranslation(0.0, -modalView.bounds.size.height + self.padding); // In
-     }
-                     completion:^(BOOL finished)
-     {
-         completion(finished);
-     }];
+    {
+        presenterView.transform = CGAffineTransformMakeTranslation(0.0, self.padding); // Bottom out
+        modalView.transform = CGAffineTransformMakeTranslation(0.0, -modalView.bounds.size.height + self.padding); // In
+    }
+                     completion:^(BOOL finished){ completion(finished); }];
 }
 
 
@@ -60,16 +55,14 @@
                     container:(UIView*) containerView
                    completion:(void(^)(BOOL finished)) completion
 {
-    // Pre-animation (gets override somewhy).
-    presenterView.transform = CGAffineTransformMakeTranslation(0.0, self.padding); // In
+    // Pre-animation.
+    presenterView.transform = CGAffineTransformMakeTranslation(0.0, self.padding); // Bottom out
     
     // Animation.
     [UIView animateWithDuration:self.duration
-                          delay:0.0
-                        options:UIViewAnimationOptionBeginFromCurrentState
                      animations:^
      {
-         presenterView.transform = CGAffineTransformIdentity;
+         presenterView.transform = CGAffineTransformMakeTranslation(0.0, 0.0); // In
          modalView.transform = CGAffineTransformMakeTranslation(0.0, -modalView.bounds.size.height); // Top out
          
      } completion:^(BOOL finished){ completion(finished); }];

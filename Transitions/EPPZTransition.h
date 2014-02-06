@@ -1,5 +1,5 @@
 //
-//  EPPZTransition.h
+//  EPPZTransitions.h
 //  Transitions
 //
 //  Created by Borbás Geri on 2/5/14.
@@ -40,12 +40,19 @@
 #import "EPPZCrossFade.h"
 #import "EPPZPartialCover.h"
 #import "EPPZPush.h"
+#import "EPPZPerspective.h"
+
+@class EPPZCrossFade;
+@class EPPZPartialCover;
+@class EPPZPush;
+@class EPPZPerspective;
 
 
 @interface EPPZTransition (Factories)
 
-+(EPPZTransition*)crossFade;
-+(EPPZTransition*)partialSlide;
-+(EPPZTransition*)push;
++(EPPZCrossFade*)crossFade;
++(EPPZPartialCover*)partialSlide;
++(EPPZPush*)push;
++(EPPZPerspective*)perspective;
 
 @end

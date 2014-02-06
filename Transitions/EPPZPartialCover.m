@@ -27,9 +27,9 @@
 
 -(void)setup
 {
-    self.padding = 128.0;
+    self.padding = 69.0;
     self.fade = 0.5;
-    self.shrink = 0.8;
+    self.shrink = 0.9;
 }
 
 
@@ -46,8 +46,6 @@
     
     // Animation.
     [UIView animateWithDuration:self.duration
-                          delay:0.0
-                        options:UIViewAnimationOptionBeginFromCurrentState
                      animations:^
      {
          presenterView.alpha = self.fade;
@@ -65,10 +63,12 @@
                     container:(UIView*) containerView
                    completion:(void(^)(BOOL finished)) completion
 {
+    // Pre-animation.
+    presenterView.alpha = self.fade;
+    presenterView.transform = CGAffineTransformMakeScale(self.shrink, self.shrink);
+    
     // Animation.
     [UIView animateWithDuration:self.duration
-                          delay:0.0
-                        options:UIViewAnimationOptionBeginFromCurrentState
                      animations:^
      {
          presenterView.alpha = 1.0;

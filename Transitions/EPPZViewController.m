@@ -28,7 +28,7 @@
 { [self touchedUp]; }
 
 -(void)touchedUp
-{ }
+{ /* Subclass template */ }
 
 
 @end

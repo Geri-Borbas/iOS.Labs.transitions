@@ -1,5 +1,5 @@
 //
-//  EPPZTransition.m
+//  EPPZTransitions.m
 //  Transitions
 //
 //  Created by Borbás Geri on 2/5/14.
@@ -15,7 +15,11 @@
 #import "EPPZTransition.h"
 
 
+static NSMutableArray *_transitionsCache = nil;
+
+
 @interface EPPZTransition ()
+@property (nonatomic, readonly) NSMutableArray *transitionsCache;
 @property (nonatomic) BOOL present;
 @end
 
@@ -23,16 +27,38 @@
 @implementation EPPZTransition
 
 
+#pragma mark - Cache
+
++(NSMutableArray*)transitionsCache
+{
+    if (_transitionsCache == nil)
+    { _transitionsCache = [NSMutableArray new]; }
+    return _transitionsCache;
+}
+
++(EPPZTransition*)cacheTransitionInstance:(EPPZTransition*) instance
+{
+    [self.transitionsCache addObject:instance]; // Retain
+    return instance;
+}
+
++(void)removeTransitionInstanceFromCache:(EPPZTransition*) instance
+{ [self.transitionsCache removeObject:instance]; }
+
+
 #pragma mark - Factories
 
-+(EPPZTransition*)crossFade
-{ return [EPPZCrossFade new]; }
++(EPPZCrossFade*)crossFade
+{ return (EPPZCrossFade*)[self cacheTransitionInstance:[EPPZCrossFade new]]; }
 
-+(EPPZTransition*)partialSlide
-{ return [EPPZPartialCover new]; }
++(EPPZPartialCover*)partialSlide
+{ return (EPPZPartialCover*)[self cacheTransitionInstance:[EPPZPartialCover new]]; }
 
-+(EPPZTransition*)push
-{ return [EPPZPush new]; }
++(EPPZPush*)push
+{ return (EPPZPush*)[self cacheTransitionInstance:[EPPZPush new]]; }
+
++(EPPZPerspective*)perspective
+{ return (EPPZPerspective*)[self cacheTransitionInstance:[EPPZPerspective new]]; }
 
 
 #pragma mark - Defaults
@@ -69,7 +95,7 @@
 #pragma mark - Animation
 
 -(NSTimeInterval)duration
-{ return 1.0; } // Default
+{ return 0.50; } // Default
 
 -(NSTimeInterval)transitionDuration:(id<UIViewControllerContextTransitioning>) transitionContext
 { return self.duration; }
@@ -86,7 +112,7 @@
         [self animatePresentationOfView:toView
                                  onView:fromView
                               container:containerView
-                             completion:^(BOOL finished){ [transitionContext completeTransition:YES]; }];
+                             completion:^(BOOL finished){ [transitionContext completeTransition:finished]; }];
     }
     
     else
@@ -94,7 +120,11 @@
         [self animateDismissalOfView:fromView
                               onView:toView
                            container:containerView
-                          completion:^(BOOL finished){ [transitionContext completeTransition:YES]; }];
+                          completion:^(BOOL finished)
+        {
+            [transitionContext completeTransition:finished];
+            [self.class removeTransitionInstanceFromCache:self]; // Release
+        }];
     }
 }
 
