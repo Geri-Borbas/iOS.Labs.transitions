@@ -14,14 +14,22 @@
 		AE9305A918A2CBB000A22777 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9305A818A2CBB000A22777 /* main.m */; };
 		AE9305AD18A2CBB000A22777 /* TRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9305AC18A2CBB000A22777 /* TRAppDelegate.m */; };
 		AE9305B018A2CBB000A22777 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE9305AE18A2CBB000A22777 /* Main_iPhone.storyboard */; };
-		AE9305B318A2CBB000A22777 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE9305B118A2CBB000A22777 /* Main_iPad.storyboard */; };
-		AE9305B618A2CBB000A22777 /* TRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9305B518A2CBB000A22777 /* TRViewController.m */; };
 		AE9305B818A2CBB000A22777 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE9305B718A2CBB000A22777 /* Images.xcassets */; };
 		AE9305BF18A2CBB000A22777 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE9305BE18A2CBB000A22777 /* XCTest.framework */; };
 		AE9305C018A2CBB000A22777 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE93059C18A2CBB000A22777 /* Foundation.framework */; };
 		AE9305C118A2CBB000A22777 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE9305A018A2CBB000A22777 /* UIKit.framework */; };
 		AE9305C918A2CBB000A22777 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE9305C718A2CBB000A22777 /* InfoPlist.strings */; };
 		AE9305CB18A2CBB000A22777 /* TransitionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9305CA18A2CBB000A22777 /* TransitionsTests.m */; };
+		AE9305D718A2CBDF00A22777 /* TRYellowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9305D518A2CBDF00A22777 /* TRYellowViewController.m */; };
+		AE9305D818A2CBDF00A22777 /* TRYellowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE9305D618A2CBDF00A22777 /* TRYellowViewController.xib */; };
+		AE9305DC18A2CC0600A22777 /* TRTealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9305DA18A2CC0600A22777 /* TRTealViewController.m */; };
+		AE9305E218A2CDE300A22777 /* EPPZTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9305E118A2CDE300A22777 /* EPPZTransition.m */; };
+		AE9305E618A2D4D100A22777 /* EPPZCrossFade.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9305E518A2D4D100A22777 /* EPPZCrossFade.m */; };
+		AE9305EC18A2EAC500A22777 /* EPPZPartialCover.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9305EB18A2EAC500A22777 /* EPPZPartialCover.m */; };
+		AE9305EF18A2FB5500A22777 /* TRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9305EE18A2FB5500A22777 /* TRViewController.m */; };
+		AE9305F118A2FB7900A22777 /* TRTealViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE9305F018A2FB7900A22777 /* TRTealViewController.xib */; };
+		AE9305F418A2FC5200A22777 /* EPPZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9305F318A2FC5200A22777 /* EPPZViewController.m */; };
+		AE9305F718A2FDA300A22777 /* EPPZPush.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9305F618A2FDA300A22777 /* EPPZPush.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,15 +54,30 @@
 		AE9305AB18A2CBB000A22777 /* TRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRAppDelegate.h; sourceTree = "<group>"; };
 		AE9305AC18A2CBB000A22777 /* TRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRAppDelegate.m; sourceTree = "<group>"; };
 		AE9305AF18A2CBB000A22777 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		AE9305B218A2CBB000A22777 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		AE9305B418A2CBB000A22777 /* TRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRViewController.h; sourceTree = "<group>"; };
-		AE9305B518A2CBB000A22777 /* TRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRViewController.m; sourceTree = "<group>"; };
 		AE9305B718A2CBB000A22777 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AE9305BD18A2CBB000A22777 /* TransitionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransitionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE9305BE18A2CBB000A22777 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		AE9305C618A2CBB000A22777 /* TransitionsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TransitionsTests-Info.plist"; sourceTree = "<group>"; };
 		AE9305C818A2CBB000A22777 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AE9305CA18A2CBB000A22777 /* TransitionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransitionsTests.m; sourceTree = "<group>"; };
+		AE9305D418A2CBDF00A22777 /* TRYellowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRYellowViewController.h; sourceTree = "<group>"; };
+		AE9305D518A2CBDF00A22777 /* TRYellowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRYellowViewController.m; sourceTree = "<group>"; };
+		AE9305D618A2CBDF00A22777 /* TRYellowViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRYellowViewController.xib; sourceTree = "<group>"; };
+		AE9305D918A2CC0600A22777 /* TRTealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRTealViewController.h; sourceTree = "<group>"; };
+		AE9305DA18A2CC0600A22777 /* TRTealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRTealViewController.m; sourceTree = "<group>"; };
+		AE9305E018A2CDE300A22777 /* EPPZTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPPZTransition.h; sourceTree = "<group>"; };
+		AE9305E118A2CDE300A22777 /* EPPZTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPPZTransition.m; sourceTree = "<group>"; };
+		AE9305E418A2D4D100A22777 /* EPPZCrossFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPPZCrossFade.h; sourceTree = "<group>"; };
+		AE9305E518A2D4D100A22777 /* EPPZCrossFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPPZCrossFade.m; sourceTree = "<group>"; };
+		AE9305EA18A2EAC500A22777 /* EPPZPartialCover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPPZPartialCover.h; sourceTree = "<group>"; };
+		AE9305EB18A2EAC500A22777 /* EPPZPartialCover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPPZPartialCover.m; sourceTree = "<group>"; };
+		AE9305ED18A2FB5500A22777 /* TRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRViewController.h; sourceTree = "<group>"; };
+		AE9305EE18A2FB5500A22777 /* TRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRViewController.m; sourceTree = "<group>"; };
+		AE9305F018A2FB7900A22777 /* TRTealViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRTealViewController.xib; sourceTree = "<group>"; };
+		AE9305F218A2FC5200A22777 /* EPPZViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPPZViewController.h; sourceTree = "<group>"; };
+		AE9305F318A2FC5200A22777 /* EPPZViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPPZViewController.m; sourceTree = "<group>"; };
+		AE9305F518A2FDA300A22777 /* EPPZPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPPZPush.h; sourceTree = "<group>"; };
+		AE9305F618A2FDA300A22777 /* EPPZPush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPPZPush.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,10 +139,11 @@
 			children = (
 				AE9305AB18A2CBB000A22777 /* TRAppDelegate.h */,
 				AE9305AC18A2CBB000A22777 /* TRAppDelegate.m */,
+				AE9305ED18A2FB5500A22777 /* TRViewController.h */,
+				AE9305EE18A2FB5500A22777 /* TRViewController.m */,
 				AE9305AE18A2CBB000A22777 /* Main_iPhone.storyboard */,
-				AE9305B118A2CBB000A22777 /* Main_iPad.storyboard */,
-				AE9305B418A2CBB000A22777 /* TRViewController.h */,
-				AE9305B518A2CBB000A22777 /* TRViewController.m */,
+				AE9305E818A2EA7A00A22777 /* View controllers */,
+				AE9305E318A2D36500A22777 /* Transitions */,
 				AE9305B718A2CBB000A22777 /* Images.xcassets */,
 				AE9305A318A2CBB000A22777 /* Supporting Files */,
 			);
@@ -153,6 +177,76 @@
 				AE9305C718A2CBB000A22777 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE9305DE18A2CC1500A22777 /* Yellow */ = {
+			isa = PBXGroup;
+			children = (
+				AE9305D418A2CBDF00A22777 /* TRYellowViewController.h */,
+				AE9305D518A2CBDF00A22777 /* TRYellowViewController.m */,
+				AE9305D618A2CBDF00A22777 /* TRYellowViewController.xib */,
+			);
+			name = Yellow;
+			sourceTree = "<group>";
+		};
+		AE9305DF18A2CC1C00A22777 /* Teal */ = {
+			isa = PBXGroup;
+			children = (
+				AE9305D918A2CC0600A22777 /* TRTealViewController.h */,
+				AE9305DA18A2CC0600A22777 /* TRTealViewController.m */,
+				AE9305F018A2FB7900A22777 /* TRTealViewController.xib */,
+			);
+			name = Teal;
+			sourceTree = "<group>";
+		};
+		AE9305E318A2D36500A22777 /* Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				AE9305E018A2CDE300A22777 /* EPPZTransition.h */,
+				AE9305E118A2CDE300A22777 /* EPPZTransition.m */,
+				AE9305E718A2DD3800A22777 /* Cross fade */,
+				AE9305E918A2EAAE00A22777 /* Partial slide */,
+				AE9305F818A2FDA600A22777 /* Push */,
+			);
+			name = Transitions;
+			sourceTree = "<group>";
+		};
+		AE9305E718A2DD3800A22777 /* Cross fade */ = {
+			isa = PBXGroup;
+			children = (
+				AE9305E418A2D4D100A22777 /* EPPZCrossFade.h */,
+				AE9305E518A2D4D100A22777 /* EPPZCrossFade.m */,
+			);
+			name = "Cross fade";
+			sourceTree = "<group>";
+		};
+		AE9305E818A2EA7A00A22777 /* View controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AE9305F218A2FC5200A22777 /* EPPZViewController.h */,
+				AE9305F318A2FC5200A22777 /* EPPZViewController.m */,
+				AE9305DF18A2CC1C00A22777 /* Teal */,
+				AE9305DE18A2CC1500A22777 /* Yellow */,
+			);
+			name = "View controllers";
+			sourceTree = "<group>";
+		};
+		AE9305E918A2EAAE00A22777 /* Partial slide */ = {
+			isa = PBXGroup;
+			children = (
+				AE9305EA18A2EAC500A22777 /* EPPZPartialCover.h */,
+				AE9305EB18A2EAC500A22777 /* EPPZPartialCover.m */,
+			);
+			name = "Partial slide";
+			sourceTree = "<group>";
+		};
+		AE9305F818A2FDA600A22777 /* Push */ = {
+			isa = PBXGroup;
+			children = (
+				AE9305F518A2FDA300A22777 /* EPPZPush.h */,
+				AE9305F618A2FDA300A22777 /* EPPZPush.m */,
+			);
+			name = Push;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +326,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE9305B318A2CBB000A22777 /* Main_iPad.storyboard in Resources */,
+				AE9305F118A2FB7900A22777 /* TRTealViewController.xib in Resources */,
 				AE9305B818A2CBB000A22777 /* Images.xcassets in Resources */,
 				AE9305B018A2CBB000A22777 /* Main_iPhone.storyboard in Resources */,
+				AE9305D818A2CBDF00A22777 /* TRYellowViewController.xib in Resources */,
 				AE9305A718A2CBB000A22777 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,9 +349,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE9305E618A2D4D100A22777 /* EPPZCrossFade.m in Sources */,
+				AE9305D718A2CBDF00A22777 /* TRYellowViewController.m in Sources */,
+				AE9305F718A2FDA300A22777 /* EPPZPush.m in Sources */,
+				AE9305F418A2FC5200A22777 /* EPPZViewController.m in Sources */,
+				AE9305EF18A2FB5500A22777 /* TRViewController.m in Sources */,
+				AE9305EC18A2EAC500A22777 /* EPPZPartialCover.m in Sources */,
 				AE9305AD18A2CBB000A22777 /* TRAppDelegate.m in Sources */,
 				AE9305A918A2CBB000A22777 /* main.m in Sources */,
-				AE9305B618A2CBB000A22777 /* TRViewController.m in Sources */,
+				AE9305DC18A2CC0600A22777 /* TRTealViewController.m in Sources */,
+				AE9305E218A2CDE300A22777 /* EPPZTransition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +395,6 @@
 				AE9305AF18A2CBB000A22777 /* Base */,
 			);
 			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		AE9305B118A2CBB000A22777 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AE9305B218A2CBB000A22777 /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		AE9305C718A2CBB000A22777 /* InfoPlist.strings */ = {
@@ -397,6 +491,7 @@
 				GCC_PREFIX_HEADER = "Transitions/Transitions-Prefix.pch";
 				INFOPLIST_FILE = "Transitions/Transitions-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -410,6 +505,7 @@
 				GCC_PREFIX_HEADER = "Transitions/Transitions-Prefix.pch";
 				INFOPLIST_FILE = "Transitions/Transitions-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

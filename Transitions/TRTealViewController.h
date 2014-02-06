@@ -1,5 +1,5 @@
 //
-//  main.m
+//  TRTealViewController.h
 //  Transitions
 //
 //  Created by Borbás Geri on 2/5/14.
@@ -13,11 +13,13 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "TRAppDelegate.h"
+#import "EPPZViewController.h"
+#import "TRYellowViewController.h"
+#import "EPPZTransition.h"
 
 
-int main(int argc, char * argv[])
-{
-    @autoreleasepool
-    { return UIApplicationMain(argc, argv, nil, NSStringFromClass([TRAppDelegate class])); }
-}
+@interface TRTealViewController : EPPZViewController
+
+-(IBAction)transitionSegmentedControlValueChanged:(UISegmentedControl*) segmentedControl;
+
+@end

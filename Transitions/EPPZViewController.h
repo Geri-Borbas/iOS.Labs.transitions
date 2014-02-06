@@ -1,5 +1,5 @@
 //
-//  main.m
+//  EPPZViewController.h
 //  Transitions
 //
 //  Created by Borbás Geri on 2/5/14.
@@ -13,11 +13,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "TRAppDelegate.h"
 
 
-int main(int argc, char * argv[])
-{
-    @autoreleasepool
-    { return UIApplicationMain(argc, argv, nil, NSStringFromClass([TRAppDelegate class])); }
-}
+@interface EPPZViewController : UIViewController
+
++(instancetype)loadFromNib;
+
+@end
